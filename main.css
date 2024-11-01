@@ -1,0 +1,569 @@
+:root {
+    --bs-primary: #e9ff09;
+    --bs-primary-light: #e9ff09;
+    --bs-secondary: #010101;
+    --bs-primary-rgb: 0, 40, 40;
+    --bs-secondary-rgb: 1, 1, 1;
+    --bs-border-radius: 0;
+    --bs-body-font-family: "Outfit";
+  }
+  
+  .color_lime {
+    color: #e9ff09 !important;
+  }
+  
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 600 !important;
+    line-height: 1.4;
+  }
+  
+  li::marker {
+    color: var(--bs-secondary);
+  }
+  
+  .section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .text-gray {
+    color: #898989;
+  }
+  .text-gray-light {
+    color: #d1d1d1;
+  }
+  
+  #mainSection {
+    background: url("https://appx-static.akamai.net.in/tharunspeaks/main-bg.png");
+  }
+  .hiring-section {
+    font-size: 2.5rem;
+  }
+  
+  #testimonialsSection .user-img {
+    width: 150px;
+    height: 150px;
+  }
+  .border-yellow {
+    border: 1px solid #e9ff09 !important;
+  }
+  .rounded-40 {
+    border-radius: 40px !important;
+    overflow: hidden;
+  }
+  .underlined {
+    background: url(https://appx-static.akamai.net.in/tharunspeaks/underline.svg)
+      no-repeat;
+    background-size: 100% 50%;
+    background-position: bottom;
+  }
+  .underlined-wt {
+    background: url(https://appx-static.akamai.net.in/tharunspeaks/underline-wt.svg)
+      no-repeat;
+    background-size: 100% 65%;
+    background-position: bottom;
+  }
+  
+  .bg-why-img {
+    background-image: url(./Assets/why-web-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .title-number {
+    font-family: Overpass Mono;
+    font-size: 100.36px;
+    font-weight: 700;
+    line-height: 389.64px;
+    text-align: left;
+    color: #ffffff63;
+  }
+  .title-text {
+    font-family: Outfit;
+    font-size: 66.04px;
+    font-weight: 700;
+    line-height: 77.19px;
+    text-align: left;
+    color: #e9ff09;
+  }
+  .underlined-lg {
+    background: url(https://appx-static.akamai.net.in/tharunspeaks/underline-lg.svg)
+      no-repeat;
+    background-size: 109% 68%;
+    background-position: bottom;
+  }
+  .slick-dots li button:before {
+    color: white !important;
+  }
+  
+  .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+  
+  .card {
+    flex: 1 0 auto;
+  }
+  
+  iframe,
+  img {
+    max-width: 100%;
+  }
+  
+  .btn {
+    border-radius: var(--bs-border-radius);
+    padding: 0.5rem 1.5rem;
+  }
+  
+  .btn-group-sm > .btn,
+  .btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+  }
+  
+  .btn-lg {
+    padding: 0.8rem 4rem;
+    font-weight: 700 !important;
+    font-size: 1.6rem;
+    border-radius: var(--bs-border-radius);
+  }
+  
+  .btn-outline-primary {
+    border-color: var(--bs-primary);
+    color: var(--bs-primary);
+  }
+  
+  .bg-primary {
+    background-color: var(--bs-primary) !important;
+  }
+  
+  .btn-primary,
+  .btn-primary:hover,
+  .btn-outline-primary:hover {
+    color: #000;
+    font-weight: 500;
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+    box-shadow: 5px 5px 0px #000;
+  }
+  .btn-primary-light,
+  .btn-primary:hover {
+    color: #000;
+    font-weight: 500;
+    background-color: var(--bs-primary-light);
+    border-color: var(--bs-primary-light);
+    box-shadow: 5px 5px 0px #000;
+  }
+  
+  .btn-secondary,
+  .btn-secondary:hover,
+  .btn-outline-secondary:hover {
+    color: var(--bs-primary);
+    background-color: #000;
+    border-color: #000;
+    box-shadow: 5px 5px 0px var(--bs-primary);
+  }
+  
+  .btn-outline-secondary {
+    color: var(--bs-secondary);
+    border: 2px solid var(--bs-secondary);
+    font-weight: 500;
+  }
+  .btn-outline-secondary:hover {
+    color: var(--bs-secondary);
+    border: 2px solid var(--bs-secondary);
+    font-weight: 500;
+  }
+  
+  .border-primary-light {
+    border-color: var(--bs-primary-light) !important;
+  }
+  .btn-outline-primary-light {
+    color: #fff;
+    border: 2px solid var(--bs-primary-light);
+    font-weight: 500;
+  }
+  
+  .btn-outline-primary-light:hover {
+    color: #000;
+    border: 2px solid var(--bs-primary-light);
+    background-color: var(--bs-primary-light);
+    font-weight: 500;
+  }
+  
+  .text-primary {
+    color: var(--bs-primary) !important;
+  }
+  .text-secondary {
+    color: var(--bs-secondary) !important;
+  }
+  .border-primary {
+    border-color: var(--bs-primary) !important;
+  }
+  .card {
+    border-radius: var(--bs-border-radius);
+  }
+  .card-img-top {
+    border-top-left-radius: var(--bs-border-radius);
+    border-top-right-radius: var(--bs-border-radius);
+  }
+  .nav-link {
+    padding: 1rem 1.8rem !important;
+    color: #fff !important;
+    font-weight: 400;
+  }
+  
+  .fw-bolder {
+    font-weight: 800 !important;
+  }
+  
+  .fw-bold {
+    font-weight: 600;
+  }
+  
+  .fw-semi-bold {
+    font-weight: 500 !important;
+  }
+  .rounded {
+    border-radius: 10px !important;
+  }
+  .rounded-sm {
+    border-radius: 10px;
+  }
+  
+  .rounded-lg {
+    border-radius: 1.5rem;
+  }
+  
+  .font-sm {
+    font-size: 0.9rem;
+  }
+  .owl-theme .owl-nav button {
+    position: absolute;
+    font-size: 50px !important;
+    color: #79e8ea !important;
+    top: 27%;
+  }
+  .owl-theme .owl-nav button:hover {
+    background: none !important;
+  }
+  .owl-theme .owl-nav .owl-prev {
+    left: 10px;
+  }
+  .owl-theme .owl-nav .owl-next {
+    right: 10px;
+  }
+  .shadow-light {
+    box-shadow: 5px 5px 0 gray;
+  }
+  .pricing-card {
+    box-shadow: 10px 10px 0 var(--bs-primary);
+    background-color: var(--bs-secondary);
+  }
+  
+  .free-asset-item {
+    cursor: pointer;
+  }
+  .free-asset-item:hover {
+    font-weight: 500;
+    /* background-color: #f1f1f1; */
+  }
+  #aboutSection .main-image {
+    width: 450px;
+    max-width: unset;
+  }
+  .disabled {
+    pointer-events: none;
+    opacity: 0.6;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: #000 !important;
+    color: #fff;
+  }
+  .accordion-button {
+    background-color: #000 !important;
+    color: #fff;
+  }
+  .accordion-button:focus {
+    border-color: #000 !important;
+  }
+  
+  #footer {
+    color: #e9ff09;
+    background: url("https://appx-static.akamai.net.in/tharunspeaks/footer-bg.png")
+      no-repeat bottom;
+    background-size: cover;
+  }
+  #testimonialSection {
+    overflow: auto;
+  }
+  .font-italic {
+    font-style: italic;
+  }
+  .gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.8)
+    );  */
+    background: linear-gradient(
+      270deg,
+      #030014 0%,
+      rgba(3, 0, 20, 0.5) 16.67%,
+      rgba(3, 0, 20, 0) 33.33%,
+      rgba(3, 0, 20, 0) 50%,
+      rgba(3, 0, 20, 0) 66.67%,
+      rgba(3, 0, 20, 0.5) 83.33%,
+      #030014 100%
+    );
+  
+    z-index: 1;
+    pointer-events: none;
+  }
+  .slider-section {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slider-content-section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .testimonial-card-even {
+    flex-shrink: 0;
+    margin: 1rem;
+    border-radius: 1rem;
+    color: white;
+    border: none;
+    background: url("./Assets/testimonial-card-bg.png") no-repeat;
+    background-size: cover;
+  }
+  .testimonial-card-odd {
+    flex-shrink: 0;
+    margin: 1rem;
+    border-radius: 1rem;
+    color: white;
+    border: none;
+    background: url("./Assets/testimonial-card-odd-bg.png.jpg") no-repeat;
+    background-size: cover;
+  }
+  
+  .testimonial-card .card-body {
+    min-height: 484px;
+    overflow: hidden;
+    text-align: justify;
+  }
+  .owl-testimonial-1 .owl-item img,
+  .owl-testimonial-2 .owl-item img {
+    width: 50px !important;
+  }
+  .owl-testimonial-2 .read-more-btn {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: 2px 12px;
+    background-color: var(--bs-primary-light);
+  }
+  .owl-testimonial-2 #readMore {
+    height: 338px;
+    margin-bottom: 1rem;
+  }
+  .owl-testimonial-2 #readMore.collapse:not(.show) {
+    display: block;
+    overflow: hidden;
+  }
+  .owl-testimonial-2 #readMore.collapse.show {
+    height: auto;
+  }
+  .fs-8 {
+    font-size: 18px;
+  }
+  
+  .owl-testimonial-2 a.collapsed::after {
+    content: "Read More";
+  }
+  
+  .owl-testimonial-2 a:not(.collapsed)::after {
+    content: "Read Less";
+  }
+  @media (max-width: 600px) {
+    .border-grey {
+      border: gray 2px solid;
+      border-radius: 5px;
+      margin-top: 5px;
+    }
+    .section {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+    #placementsSection h4 {
+      font-size: 20px;
+    }
+    #learnSection img {
+      /* max-height: 220px; */
+      border-radius: 1rem;
+      object-fit: cover;
+    }
+  }
+  
+  .timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  
+  /* Container around content */
+  .timeline .timeline-box {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+  
+  /* The circles on the timeline */
+  .timeline .timeline-box::after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -13px;
+    background-color: white;
+    border: 4px solid #e9ff09;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  /* Place the timeline-box to the left */
+  .timeline .left {
+    left: 0;
+  }
+  
+  /* Place the timeline-box to the right */
+  .timeline .right {
+    left: 50%;
+  }
+  
+  /* Add arrows to the left timeline-box (pointing right) */
+  .timeline .left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+  }
+  
+  /* Add arrows to the right timeline-box (pointing left) */
+  .timeline .right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+  
+  .video-section video {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+  .accordion-button:focus {
+    box-shadow: unset !important;
+  }
+  
+  /* Fix the circle for timeline-boxs on the right side */
+  .timeline .right::after {
+    left: -13px;
+  }
+  
+  /* The actual content */
+  .timeline .content {
+    padding: 20px 30px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    border-radius: 6px;
+    border: 1px solid white;
+  }
+  
+  /* Media queries - Responsive timeline on screens less than 600px wide */
+  @media screen and (max-width: 768px) {
+    /* Place the timelime to the left */
+    .timeline::after {
+      left: 31px;
+    }
+  
+    .timeline .content {
+      padding: 20px 4px;
+    }
+  
+    /* Full-width timeline-boxs */
+    .timeline .timeline-box {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+    }
+  
+    /* Make sure that all arrows are pointing leftwards */
+    .timeline .timeline-box::before {
+      left: 60px;
+      border: medium solid rgba(0, 0, 0, 0.781);
+      border-width: 10px 10px 10px 0;
+      border-color: transparent white transparent transparent;
+    }
+  
+    /* Make sure all circles are at the same spot */
+    .timeline .left::after,
+    .timeline .right::after {
+      left: 18px;
+    }
+  
+    /* Make all right timeline-boxs behave like the left ones */
+    .timeline .right {
+      left: 0%;
+    }
+  }
+  
+  .timeline li::marker {
+    color: #e9ff09 !important;
+  }
